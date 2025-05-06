@@ -1,13 +1,13 @@
 # Wetube
 
-This is a website that everybody upload and watch our videos.
+This is a website that everybody can upload and watch their videos.
 
 This is the <span style="color: red;">production stage.</span>
 
-This is a clone site of youtube.
+It is a clone site of YouTube.
 
-But it is very different from youtube.
+But it is very different from YouTube.
 
-You said Why? It is secret. haha
+You can say like ''Why?'' It is secret. Haha
 
 You will FEEL WHY when it's development complete.
