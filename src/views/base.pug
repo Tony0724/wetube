@@ -22,11 +22,12 @@ html(lang="ko")
         meta(name="theme-color" content="#ffffff")
     body
         header
-            if fakeUser.loggedIn
+            pre 강제 확인: #{typeof(fakeUser.loggedIn)}
+            if fakeUser && fakeUser.loggedIn
                 small Hello #{fakeUser.username}
             nav 
                 ul 
-                    if fakeUser.loggedIn
+                    if fakeUser && fakeUser.loggedIn
                         li 
                             a(href="/logout") Log out
                     else
