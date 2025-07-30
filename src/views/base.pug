@@ -22,17 +22,6 @@ html(lang="ko")
         meta(name="theme-color" content="#ffffff")
     body
         header
-            pre 강제 확인: #{typeof(fakeUser.loggedIn)}
-            if fakeUser && fakeUser.loggedIn
-                small Hello #{fakeUser.username}
-            nav 
-                ul 
-                    if fakeUser && fakeUser.loggedIn
-                        li 
-                            a(href="/logout") Log out
-                    else
-                        li 
-                            a(href="/login") Login
             h1=pageTitle
         main
             block content

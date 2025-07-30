@@ -1,10 +1,6 @@
 export const trending = (req, res) => {
-    const fakeUser = {
-        username:"sungmin",
-        loggedIn: false,
-    }
-
-    return res.render("home", {pageTitle: "Home", fakeUser});
+    const videos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    return res.render("home", {pageTitle: "Home", videos});
 }
 export const see = (req, res) => res.render("watch", {pageTitle: "Home", fakeUser});
 export const edit = (req, res) => res.render("edit", {pageTitle: "Home", fakeUser});
@@ -13,5 +9,3 @@ export const upload = (req, res) => res.send("upload");
 export const deleteVideo = (req, res) => {
     return res.send("Delete Video")
 }
-
-// fakeuser를 전역 상수로 놓아야 할 듯..
