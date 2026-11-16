@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Tony0724/wetube.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --watch src --ext js,json --exec babel-node src/server.js"
   },
   "author": "Sungmin Kim",
   "license": "MIT",
@@ -24,6 +24,6 @@
     "@babel/core": "^7.23.0",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.22.20",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.14"
   }
 }
